@@ -376,7 +376,7 @@ total_training_loss_error = 0
 list_validation_loss_error = []
 early_stopping_check = 0
 early_stopping_stop = 100
-checkpoint = "chatbot_weights.ckpt"
+checkpoint = "./chatbot_weights.ckpt"
 session.run(tf.global_variables_initializer())
 for epoch in range(1, epochs + 1):
     for batch_index, (padded_questions_in_batch, padded_answers_in_batch) in enumerate(split_into_batches(training_questions, training_answers, batch_size)):
