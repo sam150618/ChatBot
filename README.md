@@ -1,5 +1,5 @@
 # ChatBot
-Implementation of a simple chatbot using seq2seq model in the python. This Chatbot example follows the attention mechanism, padding and bucketing as well.
+Implementation of a simple chatbot using seq2seq model in the python. This chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language. It follows the attention mechanism, padding and bucketing as well.
 
 
 # Dataset
